@@ -8,7 +8,6 @@ using System.Text;
 using System.Windows.Forms;
 using System.Collections;
 using Stagger.Objects;
-using Stagger.Dialog;
 using Stagger.Report;
 using System.Diagnostics;
 using System.IO;
@@ -450,11 +449,7 @@ namespace Stagger
             setupDnumberRanges();
         }
 
-        private void aboutToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            AboutBox1 About = new AboutBox1();
-            About.ShowDialog(this);
-        }
+     
         #endregion
 
         /// <summary>
